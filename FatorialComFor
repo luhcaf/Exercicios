@@ -1,0 +1,18 @@
+#include<iostream>
+
+int main() 
+{
+  using namespace std;
+  
+  int num,fatorial=1;
+  cout<<"Entre com numero para calcular seu faorial:\n ";
+  cin>>num;
+  for(int i=1;i<=num;i++) 
+    { 
+    fatorial=fatorial*i;
+    } 
+
+cout<<"Fatorial de :"<<num<<"\né = "<<fatorial<<endl;
+cin.get();
+return 0; 
+}
