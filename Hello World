@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main ()
+{
+std::cout << "Oi mundo! *--*";  // poderia usar "using namespace std;" 
+}
