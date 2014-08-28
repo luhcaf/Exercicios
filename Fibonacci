@@ -1,0 +1,22 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std; 
+
+  int main()
+  {
+    int cont, n; 
+    long ult=1,prox=0,sum;
+    cout<<"Entre com Numero :";
+    cin>>n;
+            //calcula Fibonacci 
+    while(prox<n/2) 
+    { 
+      cout<<ult <<"+"; 
+      sum=prox+ult; 
+      prox=last; ult=sum;
+    } 
+
+getch();
+return 0;
+}
