@@ -1,0 +1,30 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main ()
+{
+  clrscr();
+  char name[80];
+  int temp, l;
+  cout << "Entre com qualquer Nome!\n";
+  scanf("%79s",name);
+  
+  for (l = 0;name[l]!='\0';l++)
+  
+  for (int = 0, j - l-1;i<l/2;i++,j--)
+  
+  {
+    temp = name[i];
+    name[i] = name[j];
+    name[j] = temp;
+  }
+    
+  cout << "Nome inverso é\n" << name;
+    
+    getch();
+    return 0;
+    
+}
